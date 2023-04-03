@@ -19,3 +19,8 @@
 
 p "Enter a number:"
 
+number = gets.to_i
+
+10.times do |multiply|
+  p (multiply + 1) * number
+end
